@@ -1,0 +1,16 @@
+/*
+1.
+Semantiska HTML-element spelar en stor roll i webbutveckligen, speciellt för tillgängligheten för användare med funtionshinder. 
+Tack vare semantiska element kan webbutvecklare tillhandhålla en tydlig struktur för webbinnehåll. Vilket är grunden för hjälpmedel för att tolka och förmedla information effektivt till användare med funktionshinder. 
+Exempelvis, <header>:
+Som representerar introduktionsinnehåll i början av ett avsnitt eller en sida. innehåller oftast: rubriker, navigeringslänkar och sökformulör bland annat. 
+En annan är <nav>:
+vilket definierar en sektion av navigeringslänkar, till exempel en meny elelr index. Den hjälper användarn att navigera på webbplatsen och hitta relevant innehåll.
+
+2.
+Color contrast spelar en avgörande roll i webbldesign när det gäller tillgänglighet, särskilt för användare med synnedsättningar.
+Med rätt verktyg kan webbplatser säkerställe att test och interaktiva element är läsbart för alla användare. Genom att använda färger med tillräckligt kontrastförhållande kan webbplatser säkerställa att innehållet är tillgängligt för en bredare användarbas.
+Enligt riktlinjerna från WCAG bör text och interaktiva element 
+ha ett förgkontrastförhållande på minst 4,5:1 för att säkerställa tillgängligheten för personer med synnedsättnig.
+
+*/
