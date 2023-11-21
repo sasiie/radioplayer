@@ -1,11 +1,13 @@
 /*
 1.
 Semantiska HTML-element spelar en stor roll i webbutveckligen, speciellt för tillgängligheten för användare med funtionshinder. 
-Tack vare semantiska element kan webbutvecklare tillhandhålla en tydlig struktur för webbinnehåll. Vilket är grunden för hjälpmedel för att tolka och förmedla information effektivt till användare med funktionshinder. 
+Tack vare semantiska element kan webbutvecklare tillhandhålla en tydlig struktur för webbinnehåll. 
+Vilket är grunden för hjälpmedel för att tolka och förmedla information effektivt till användare med funktionshinder. 
 Exempelvis, <header>:
-Som representerar introduktionsinnehåll i början av ett avsnitt eller en sida. innehåller oftast: rubriker, navigeringslänkar och sökformulör bland annat. 
-En annan är <nav>:
-vilket definierar en sektion av navigeringslänkar, till exempel en meny elelr index. Den hjälper användarn att navigera på webbplatsen och hitta relevant innehåll.
+Som representerar introduktionsinnehåll i början av ett avsnitt eller en sida innehåller oftast:
+ rubriker, navigeringslänkar och sökformulör bland annat. 
+En annan är <nav>: vilket definierar en sektion av navigeringslänkar, till exempel en meny elelr index. 
+Den hjälper användarn att navigera på webbplatsen och hitta relevant innehåll.
 
 2.
 Color contrast spelar en avgörande roll i webbldesign när det gäller tillgänglighet, särskilt för användare med synnedsättningar.
@@ -13,4 +15,25 @@ Med rätt verktyg kan webbplatser säkerställe att test och interaktiva element
 Enligt riktlinjerna från WCAG bör text och interaktiva element 
 ha ett förgkontrastförhållande på minst 4,5:1 för att säkerställa tillgängligheten för personer med synnedsättnig.
 
-*/
+3. 
+Alternativtext (alt-text) spelar en avgörande roll för tillgängligheten på webben, särskilt för användare med synnedsättning. Genom att inkludera beskrivande alt-text är avgörande eftersom 
+det för det möjligt för användare med synnedsättning att förmedla innehållet i bilder, då det ger möjlighet att ta del av innehåller på lika vilkor som användare utan funktionsnedsättning. Alt-texten förmedlar syftet med bilden (än dess utseende) genom att vara kortfattad och beskrivande. 
+Om en bild är länkad kan texten beskriva istället bildens funktion, dvs vad som kommer hända när användaren klickar på den länkade bilden. 
+
+4. 
+Landmärken i webbutveckling är avgörande för att skapa tillgängligt webbinnehåll, särskilt för användare av hjälpmedelsteknik såsom skärmläsare. Den hjälper användare att identifiera och navigera till viktiga sektioner på webbsidan, vilket för det möjligt för användare att effektivt navigera och förstå innehållet. 
+Landmärken har tre stora roller i skapandet av tillgängligt webbinnehåll:
+Navigationshjälp; såsom nämnts tidigare hjälper användaren att navigeras på webbsidan till olika sektioner på sidan, som huvudinnehållet eller andra betydelsefulla sektioner.
+Programmatisk struktur; ger användare med hjälpmedelsteknik att förstå layouten, användare som förlitar sig på skärmläsare för navigering har ett stort behov av detta.
+semantisk märkning; landmärken bör komplettera den naturlia semantiska märkningen, såsom HTML-rubriker, listor osv. Dessa är tolkbara av WAI-ARIA-medvetna hjälpmedelstekniker. 
+Några exempel, <headr>: representerar inledande innehåll eller en gruppnavigeringslänkar i början av en sida. Medan <nav> representerar en sekton med navigeringslänkar, som en meny eller index.
+Genom att inkludera dessa landsmärkelseelement i HTML-strukturen på en webbsida kan utvecklare förbättra webbplatsernas tillgänglighet.
+
+5. 
+Att ge varje formulärelement en beskrivande etikett kan få användare att förstå syftet med varje element. Det är viktigt att ettiketerna associeras med sina kontroller så att när användare fokuserar på ett formulärelement, kan de både höra eller se deras beskrivning. Vilket tillåter
+användare med hjälpmedelsteknik kan förstå syftet med wepplatsen med hjälp av formulärelementet. 
+
+Ett exempel som utvecklare kan implementera för förbättrad tillgänglöighet är HTML-etiketter där '<label>' kan användas för att associera etiketter med formuläelement. Vilket ger möjlighet för användare med hjälpmedelsteknik att göra eller se beskrivningen av varje formulärelement.
+Där <label> med ´for´-attribut ger : <label for="username">Andvändarnamn:</label><input type="text" ....> vilket berättar för andvändaren att här skrivs ditt andvändarnamn.
+
+ */
